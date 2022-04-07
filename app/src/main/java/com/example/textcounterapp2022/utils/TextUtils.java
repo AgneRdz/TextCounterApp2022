@@ -6,8 +6,8 @@ public class TextUtils {
 
     }
     public static int getWordsCount(String input){
-        String words = input.trim();
-        return words.split("\\s+").length;
+        return input.length();
     }
 
 }
+
